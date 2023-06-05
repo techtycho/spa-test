@@ -23,6 +23,7 @@ function handleLocation() {
   };
 
   xhr.send();
+  document.querySelector("#main-page").innerHTML = "Loading..";
 }
 
 document.querySelectorAll("a").forEach((elem) => {
